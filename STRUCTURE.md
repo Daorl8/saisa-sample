@@ -1,4 +1,4 @@
-# STRUCTURE · saisa-sample (v0.1.0 · 모노크롬 포트폴리오 · 중성 흰/회색 + 검정 · 모서리 2px · 배포 예정 saisa-sample.lgt3232.workers.dev)
+# STRUCTURE · saisa-sample (v0.1.2 · 화면 · 코드 검토 완료 · 모노크롬 포트폴리오 · 중성 흰/회색 + 검정 · 모서리 2px · 배포 예정 saisa-sample.lgt3232.workers.dev)
 
 ```
 saisa-sample/
@@ -15,14 +15,14 @@ saisa-sample/
 ```
 
 ## 섹션 순서
-헤더(+ 900px 미만 `.snav`) → 히어로 → `#about`(흰) → `#works` 12장(회색) → `#projects` 목록 11건(흰 · 900 이상 5열 표) → `#contact`(회색 · 구글 지도 흑백) → 푸터 + 모바일 `.quick`.
+헤더(+ 900px 미만 `.snav`) → 히어로 → `#about`(흰) → `#works` 12장(회색) → `#projects` 목록 13건(블로그 프로젝트 글 전부)(흰 · 900 이상 5열 표) → `#contact`(회색 · 구글 지도 흑백) → 푸터 + 모바일 `.quick`.
 
 ## 버튼 · 링크
 - 견적문의 `https://open.kakao.com/o/s2nBvxug`(메인): 헤더 · 히어로 · 문의 · 하단 바
 - 전화 `tel:01095077600`: 히어로 · 문의 · 푸터 · 하단 바
 - 인스타 `https://www.instagram.com/saisa.kr/`: 히어로 · 문의 · 푸터 · 하단 바
 - 이메일 `mailto:saisastudio@naver.com`: 문의
-- 네이버 길찾기 `map.naver.com/p/entry/place/1243681568` · Behance · 블로그 · 네이버 플레이스(푸터)
+- 네이버 지도 `map.naver.com/p/entry/place/1243681568` · Behance · 블로그 · 네이버 플레이스(푸터)
 
 ## 모션 (강제 재생 · 다올 방침)
 - 히어로 `.intro` 등장 · 섹션 `.reveal`(setInterval) · 앵커 클릭 rAF 스크롤(R-25). reduced-motion 분기 없음.
